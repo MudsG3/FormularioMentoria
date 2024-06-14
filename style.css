@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, select {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #EFEFEF;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+.page {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    width: 417px;
+    margin-top: 140px;
+}
+
+header h1 {
+    font-family: 'Staatliches';
+    line-height: normal;
+    font-size: 48px;
+    font-weight: 400;
+    
+    color: #FFF;
+
+    margin-bottom: 18px;
+}
+
+header p {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+
+    color: #FFF;
+}
+
+form {
+    margin-top: 58px;
+    border-radius: 20px 20px 0px 0px;
+    background: #FFF;
+    
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+fieldset {
+    border: none;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset legend {
+    font-family: 'Staatliches';
+    font-size: 24px;
+    font-style: normal;
+
+    line-height: 34px;
+
+    color: #535971;
+
+    border-bottom: 1px solid #E6E6F0;
+    padding: 0 0 16px;
+}
+
+.form-lines {
+    width: 100%;
+    float: left;
+    padding-bottom: 16px;
+}
+
+.form-lines .input-wrapper-half:first-child{
+    margin-right: 22px;
+}
+
+.input-wrapper {
+    display: inline-block;
+    float: left;
+    width: 100%;
+}
+
+.input-wrapper label {
+    width: 100%;
+    height: 24px;
+
+    color: #4E4958;
+
+    margin-bottom: 8px;
+    float: left;
+}
+
+.input-wrapper label span {
+    margin-left: 12px;
+  
+    font-size: 12px;
+    line-height: 20px;
+    
+    color: #a9a7af;
+}
+
+.input-wrapper label span:hover {
+    color: #6c6a71;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  
+  height: 56px;
+  width: 100%;
+
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6c6a71;
+  float: left;
+}
+
+.input-wrapper1 input{
+    background: #FAFAFC;
+  
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+    height: 56px;
+    width: 300px;
+    
+    padding: 0 24px;
+    margin-right: 10px;
+
+    font-size: 16px;
+    line-height: 26px;
+  
+    color: #6c6a71;
+    float: left;
+}
+
+.input-wrapper1 label {
+    width: 100%;
+    height: 24px;
+
+    color: #4E4958;
+
+    margin-bottom: 8px;
+    float: left;
+}
+
+.input-wrapper2 input{
+    background: #FAFAFC;
+  
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+    height: 56px;
+    width: 140px;
+    
+    padding: 0 24px;
+    margin: 0 -10px;
+
+    font-size: 16px;
+    line-height: 26px;
+  
+    color: #6c6a71;
+    float: left;
+}
+
+.input-wrapper2 label {
+    width: 100%;
+    height: 24px;
+
+    color: #4E4958;
+
+    margin-bottom: 8px;
+    float: left;
+}
+
+.input-wrapper3 input{
+    background: #FAFAFC;
+  
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+    height: 56px;
+    width: 140px;
+    
+    padding: 0 24px;
+
+    font-size: 16px;
+    line-height: 26px;
+  
+    color: #6c6a71;
+    float: left;
+}
+
+.input-wrapper3 label {
+    width: 100%;
+    height: 24px;
+
+    color: #4E4958;
+
+    margin-bottom: 8px;
+    float: left;
+}
+
+.input-wrapper-half {
+    width: 300px;
+}
+
+.col-3 {
+    display: flex;
+    gap: 20px;
+}
+  
+.col-3 > div:nth-child(1) {
+    width: 100%;
+}
+
+footer {
+    background: #535971;
+    
+    height: 136px;
+    
+    display: flex;
+    flex-direction: column;
+  
+    padding: 40px 64px;
+    margin-bottom: 100px;
+  
+    border-top: 1px solid #D6D6D6;
+    border-radius: 0 0 8px 8px;
+}
+  
+footer .button {
+    height: 56px;
+    border-radius: 20px;
+    background: #FF5374;
+    border: 0;
+  
+    color: #FFF;
+
+    font-family: Staatliches;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+  
+
+}
+  
+footer .button:hover {
+    background: #b4334d;
+  
+}
